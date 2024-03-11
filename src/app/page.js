@@ -1,14 +1,14 @@
 "use client";
+import CompMLCup from "./components/CompMLCup";
 import TemperatureConverter from "./components/TemperatureConverter";
 import "./globals.css";
 
 export default function Home() {
 	return (
-		<div style={{ display: "flex", justifyContent: "center" }}>
-			<div>
-				
-				<TemperatureConverter />
-			</div>
+		<div className="m-14 "  >
+			
+				<CompMLCup />
+			
 		</div>
 	);
 }
