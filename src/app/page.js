@@ -1,10 +1,13 @@
 "use client";
+
 import Wapda from "./components/Wapda/Wapda";
 import WapdaRates from "./components/Wapda/WapdaRates";
+
 import "./globals.css";
 
 export default function Home() {
 	return (
+
 		<div style={{ display: "flex", justifyContent: "center" }}>
 			<div>
 				{/* <Wapda />
@@ -15,6 +18,8 @@ export default function Home() {
 					<Wapda />
 				</div>
 			</div>
+
+
 		</div>
 	);
 }
